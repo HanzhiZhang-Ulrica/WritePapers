@@ -128,3 +128,30 @@ PPL、误差、延迟和能耗通常是越低越好；准确率和吞吐通常�
 **哪些证据支持效果、机制和适用范围？**
 
 **读完之后，我在设计或理解同类方法时，可以采用什么新的判断？**
+
+## LaTeX 源码补充检查
+
+- 是否有未使用的主要 Figure/Table label。
+
+- `\begin` 和 `\end` 是否匹配。
+
+- 表格列数与 `&` 数量是否一致。
+
+- 图表 caption 与 label 是否放在正确位置。
+
+- 正文、Appendix 和 References 是否完整。
+
+## 终稿审计的四个层次
+
+必须打开实际 PDF，逐页查看。
+
+源码没有报错，不等于排版没有问题。
+
+内容完整性、科学一致性、typos、references、图表、PDF 和会议格式的检查结论。
+
+| 层次 | 读取已有规则 | 要完成的检查 |
+| --- | --- | --- |
+| LaTeX Source Audit | 引用检查、LaTeX 源码补充检查；[逐句修改](revision-and-style.md)的术语与格式保真 | 宏、label、ref、citation、环境与表格结构 |
+| Scientific Consistency Audit | 指标、比较条件与证据边界、双重可读性；[研究定位与证据](research-and-evidence.md)的主张证据关系 | Method 与代码、Experiments 与结果、Claims 与全文 |
+| PDF Visual Audit | 图表与视觉编码、最终 PDF 与验证范围 | 实际 PDF 逐页检查、浮动顺序、边界、字号、引用位置与页数 |
+| Submission Compliance Audit | 投稿声明与表单；[研究定位与证据](research-and-evidence.md)的会议与领域定位 | 会议年份、匿名、页数、模板、声明、补充材料及截止时间 |

@@ -195,10 +195,142 @@ README 和 local agent 的总结可以提供入口；关键事实应当追到具
 
 **观察到了什么；什么机制能够解释；改变哪个因素会改变结果；这个解释适用于哪些条件。**
 
-## 从完整草稿到定稿
+## 从研究定位进入起草
 
-推荐流程是：
+全文起草顺序与跨节整合见 [全文规划与完整起草](drafting-plan.md)。
 
-**研究事实 → framing 与贡献 → 主张证据表 → 句段计划 → Method 与实验 → Appendix → Introduction 与 Related Work → 最终 Abstract 与 Conclusion → 全文检查。**
+## 当前版本与实现状态
 
-早期可以先写一个工作版摘要帮助聚焦。最终摘要则吸收已经稳定的方法、结果和主张。
+先明确：
+
+- 当前代码的主方法是什么？
+- 是否存在旧版实现、已废弃方法或历史实验？
+- 当前论文对应哪个 branch、commit 或方法配置？
+- 哪些实验已经完成，哪些正在运行？
+- 是否已有被作者确认的研究问题、命名和贡献？
+- 是否有此前明确拒绝的写法或设计解释？
+
+不能因为 README 排在仓库最上面，就将其中的历史描述直接当作当前论文的方法。
+
+应当沿着实际的运行入口、配置和保存结果，确认当前生效的研究路径。
+
+不要把仓库所有代码都当成当前方法。
+
+| 状态         | 含义             |
+| ---------- | -------------- |
+| 当前主路径      | 论文实际采用的实现      |
+| Optional   | 可选功能，须确认实际是否启用 |
+| Ablation   | 只用于消融          |
+| Diagnostic | 只用于调试或分析       |
+| Legacy     | 历史方法           |
+| Planned    | 文档提出但尚未完成      |
+| Unverified | 存在代码，但尚不能确认行为  |
+
+只有确认生效的路径，才能进入 Method 的技术事实。
+
+## 方法事实卡
+
+对每个主要组件整理：
+
+```
+Component:
+Purpose:
+Input:
+Output:
+Shape / Dtype:
+Main operation:
+Decision rule:
+Scope:
+Execution stage:
+Persistent or temporary state:
+Hardware or workload conditions:
+Source code location:
+Configuration:
+Associated experiments:
+Scientific contribution:
+```
+
+## 结果来源与实验状态
+
+每个结果至少记录：
+
+```
+Experiment ID:
+Result file:
+Model / Revision:
+Tokenizer:
+Method / Configuration:
+Dataset / Split:
+Evaluation task:
+Metric and direction:
+Shot count / Prompt format:
+Hardware:
+Runtime backend:
+CUDA Graph:
+Attention backend:
+KV-cache configuration:
+Batch size:
+Prompt length:
+Generated length:
+Warmup / Repetitions:
+Timing boundary:
+Memory or energy accounting:
+Result:
+Status:
+```
+
+在用户已经确认跨方法条件匹配、同一 evaluator 和同一 metric field 时，应将这些记录为已确认事实，写入协议即可。
+
+| 状态         | 写作处理           |
+| ---------- | -------------- |
+| 已完成并核对     | 直接用于论文         |
+| 已完成、等待最终验证 | 在内部标记核对事项      |
+| 正在运行       | 留出结果和分析位置      |
+| 已设计尚未运行    | 根据主张的重要性决定是否需要 |
+| 当前无法获得     | 不填造数字，也不声称已经完成 |
+
+## 最近邻的技术比较
+
+| 比较维度                  | Prior Work | Current Method |
+| --------------------- | ---------- | -------------- |
+| Research objective    | 对方的实际目标    | 本文目标           |
+| Decision unit         | 对方的选择单位    | 当前选择单位         |
+| Sensitivity/criterion | 对方的依据      | 本文依据           |
+| Representation        | 对方保存什么     | 本文保存什么         |
+| Execution             | 对方怎样计算     | 本文怎样计算         |
+| Budget/constraint     | 对方约束什么     | 本文约束什么         |
+| Evaluation            | 对方证据范围     | 本文证据范围         |
+| Main distinction      | 两者实际不同的行为  | 不同如何产生价值       |
+
+根据这些维度寻找最接近的论文，而不是只按照标题关键词搜索。
+
+## 尚未确定主线时比较候选 Framing
+
+对每个候选填写：
+
+```
+Application setting:
+Important objective:
+What creates the difficulty:
+Observed phenomenon:
+Core insight:
+Key design:
+Main expected benefit:
+Existing evidence:
+Closest prior work:
+```
+
+比较这些候选：
+
+- 哪个问题真正重要？
+- 哪个有最强实验支持？
+- 哪个最符合当前实际实现？
+- 哪个具有可辨识的学术增量？
+- 哪个最容易让目标会议的读者理解？
+- 哪个能够连接现有多个技术组件？
+
+然后选择一条主要主线，而不是同时使用几个互相竞争的故事。
+
+## 会议截止信息
+
+- 截稿时间及时区。

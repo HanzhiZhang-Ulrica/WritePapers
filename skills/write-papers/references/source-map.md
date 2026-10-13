@@ -4,7 +4,7 @@
 
 原文中的聊天说明、粘贴标记、重复总结及 TileQuant／AlignQuant 项目案例保留在原始材料中。
 
-原始材料用于追溯；规则入口为 SKILL.md 及四份主题文件。
+原始材料用于追溯；README 负责阶段导航，各 SKILL.md 读取共同要求与对应规则文件。
 
 ## 原始材料
 
@@ -15,6 +15,7 @@
 | 本轮补充要求 | [latest-requirements.md](sources/latest-requirements.md) |
 | How To Write Papers | [how-to-write-papers.pdf](sources/how-to-write-papers.pdf) |
 | Computer Science Paper Pre-Submission Checklist | [cs-paper-pre-submission-checklist.pdf](sources/cs-paper-pre-submission-checklist.pdf) |
+| 从零开始完成一篇高质量学术论文：完整研究、规划、写作、修改与投稿流程 | [full-paper-workflow.md](sources/full-paper-workflow.md) |
 
 ## 规则来源
 
@@ -22,11 +23,11 @@
 
 | 规则位置 | 原文位置 |
 | --- | --- |
-| [共同要求](../SKILL.md) | [原指南](sources/research-writing-guide.md)：L3、1010；[本轮补充要求](sources/latest-requirements.md)：L21；[TileQuant修改反馈](sources/tilequant-feedback.txt)：L19 |
-| [整体目标、研究问题和核心洞察](../SKILL.md) | [本轮补充要求](sources/latest-requirements.md)：L21；[原指南](sources/research-writing-guide.md)：L46 |
-| [逻辑、对象和机制](../SKILL.md) | [本轮补充要求](sources/latest-requirements.md)：L21 |
-| [语言限制](../SKILL.md) | [本轮补充要求](sources/latest-requirements.md)：L21；[原指南](sources/research-writing-guide.md)：L815 |
-| [引用与图的范围](../SKILL.md) | [本轮补充要求](sources/latest-requirements.md)：L21 |
+| [共同要求](common-rules.md) | [原指南](sources/research-writing-guide.md)：L3、1010；[本轮补充要求](sources/latest-requirements.md)：L21；[TileQuant修改反馈](sources/tilequant-feedback.txt)：L19 |
+| [整体目标、研究问题和核心洞察](common-rules.md) | [本轮补充要求](sources/latest-requirements.md)：L21；[原指南](sources/research-writing-guide.md)：L46 |
+| [逻辑、对象和机制](common-rules.md) | [本轮补充要求](sources/latest-requirements.md)：L21 |
+| [语言限制](common-rules.md) | [本轮补充要求](sources/latest-requirements.md)：L21；[原指南](sources/research-writing-guide.md)：L815 |
+| [引用与图的范围](common-rules.md) | [本轮补充要求](sources/latest-requirements.md)：L21 |
 | [输入与最终交付](research-and-evidence.md) | [原指南](sources/research-writing-guide.md)：L17–20、22、24、28–36、38 |
 | [会议与领域定位](research-and-evidence.md) | [原指南](sources/research-writing-guide.md)：L97、99–106、108、144、146、150 |
 | [相似论文与写作资料](research-and-evidence.md) | [原指南](sources/research-writing-guide.md)：L112、114–119、121、123、125–138、156–164、166 |
@@ -34,7 +35,7 @@
 | [研究难点与 novelty](research-and-evidence.md) | [原指南](sources/research-writing-guide.md)：L228–235、243、245–251、253、259–266、268、272–274、276、284、286 |
 | [主张、机制、证据与位置](research-and-evidence.md) | [原指南](sources/research-writing-guide.md)：L294–300、302、306–311 |
 | [观察、机制与因果解释](research-and-evidence.md) | [原指南](sources/research-writing-guide.md)：L882、884 |
-| [从完整草稿到定稿](research-and-evidence.md) | [原指南](sources/research-writing-guide.md)：L946、948、950 |
+| [从完整草稿到定稿](drafting-plan.md) | [原指南](sources/research-writing-guide.md)：L946、948、950 |
 | [正文与 Appendix 分工](paper-sections.md) | [原指南](sources/research-writing-guide.md)：L7、321–330、334、336 |
 | [篇幅建议](paper-sections.md) | [原指南](sources/research-writing-guide.md)：L346、348–355、357 |
 | [Abstract](paper-sections.md) | [原指南](sources/research-writing-guide.md)：L365、367–377、379、383、387、389；[TileQuant修改反馈](sources/tilequant-feedback.txt)：L67、68 |
@@ -81,7 +82,7 @@
 | 1. Core message and structure | Title is specific and matches the actual contribution. | 补充 | [标题、相关工作与独立阅读](final-checks.md) |
 | 1 | Abstract states the problem, method, main result, and why it matters. | 已有 | [Abstract](paper-sections.md) |
 | 1 | Introduction motivates the problem and ends with explicit contributions. | 已有 | [Introduction](paper-sections.md) |
-| 1 | Claims are calibrated; no overstatement or unsupported novelty claims. | 已有 | [共同要求、研究问题和核心洞察](../SKILL.md) |
+| 1 | Claims are calibrated; no overstatement or unsupported novelty claims. | 已有 | [共同要求、研究问题和核心洞察](common-rules.md) |
 | 1 | Related work covers the most relevant prior methods, datasets, and benchmarks. | 补充 | [标题、相关工作与独立阅读](final-checks.md) |
 | 1 | Symbols, assumptions, and terminology are defined before use. | 扩展 | [标题、相关工作与独立阅读](final-checks.md) |
 | 2. Experiments and technical soundness | Baselines are strong, current, and fairly implemented. | 补充 | [实验与技术可靠性](final-checks.md) |
@@ -109,3 +110,54 @@
 | Last 5-minute search pass | self-identifying names, links, or metadata | 补充 | [最后五分钟检索](final-checks.md) |
 | Last 5-minute search pass | missing citations, broken references, and numbering mismatches | 补充 | [最后五分钟检索](final-checks.md) |
 | 顶部提示 | After checking every item, open the exact uploaded PDF once more and verify it matches what you intended to submit. | 补充 | [最终 PDF 与验证范围](final-checks.md) |
+
+## 完整流程的补充与归并
+
+来源：[完整流程原文](sources/full-paper-workflow.md)。README 的阶段编号、任务和完成标准对应原文 Phase 0–18；五个 skill 入口按这些职责分组。
+
+| 更新位置 | 原文位置 |
+| --- | --- |
+| [科学约束与已确认内容](common-rules.md) | 完整流程 L1755、138 |
+| [当前版本与实现状态](research-and-evidence.md) | 完整流程 L98–109、287–299 |
+| [方法事实卡](research-and-evidence.md) | 完整流程 L340–358 |
+| [结果来源与实验状态](research-and-evidence.md) | 完整流程 L391–418、456–462 |
+| [最近邻的技术比较](research-and-evidence.md) | 完整流程 L487–496、483 |
+| [尚未确定主线时比较候选 Framing](research-and-evidence.md) | 完整流程 L542–565 |
+| [段落级 Blueprint](drafting-plan.md) | 完整流程 L761–787、791–799、807–813、743 |
+| [图表职责与消融计划](drafting-plan.md) | 完整流程 L940、895–906、690 |
+| [第一版全文的写作顺序](drafting-plan.md) | 完整流程 L965–978、982–995 |
+| [完整初稿与缺失结果](drafting-plan.md) | 完整流程 L999–1009、1013–1020、1024 |
+| [Appendix 的补齐与定位](drafting-plan.md) | 完整流程 L1466、1468、1541–1548、1552–1568、1592、1596 |
+| [Title](paper-sections.md) | 完整流程 L1032–1050 |
+| [实验解释与结论的补充要求](paper-sections.md) | 完整流程 L1417、1435、1439、1441、1454 |
+| [批注与确认状态](revision-and-style.md) | 完整流程 L1956–1967 |
+| [六轮系统性修改](revision-and-style.md) | 完整流程 L1675、1677 |
+| [六轮系统性修改的完成标准](revision-and-style.md) | 完整流程 L1694、1715、1736、1839、1862、1896 |
+| [审查问题分类](revision-and-style.md) | 完整流程 L1881–1890、1892 |
+| [当前版本与多方意见](revision-and-style.md) | 完整流程 L1904、1906、1985–1995 |
+| [重复收尾](revision-and-style.md) | 完整流程 L1816–1827 |
+| [LaTeX 源码补充检查](final-checks.md) | 完整流程 L2013、2014、2015、2016、2018 |
+| [终稿审计的四个层次](final-checks.md) | 完整流程 L2051、2067、2087 |
+| [唯一最终版本](submission-and-response.md) | 完整流程 L2095–2097 |
+| [关键数字与审稿问题的来源](submission-and-response.md) | 完整流程 L2101–2114、2118–2131 |
+| [Rebuttal](submission-and-response.md) | 完整流程 L2135–2142 |
+| [倒排时间与阶段验收](submission-and-response.md) | 完整流程 L2152–2186 |
+
+### 去重与保留的已确认要求
+
+| 完整流程中的内容 | 归并位置或处理 |
+| --- | --- |
+| 总目标、研究 gap、核心 insight、解释成本与证据纪律 | 共同要求、研究定位与证据，已有规则保留一处 |
+| 会议材料、近邻阅读预算、方法事实、贡献证据关系 | 研究定位与证据，补齐版本状态、结果状态和来源记录 |
+| Abstract、Introduction、Related Work、Method、Experiments、Conclusion 的重复职责 | 各节写作，新增 Title 与独立的全文规划规则 |
+| 逐句替换、术语、宏、颜色、排版锁定 | 逐句修改与表达，补齐六轮审阅和批注状态含义 |
+| 源码、科学性、PDF、投稿合规的重复检查 | 成稿与投稿检查，分为四个审计层次并复用已有检查项 |
+| 多处贡献数量建议 | 保留已确认的默认三项及其独立职责；流程中的宽泛数量建议不覆盖具体批注 |
+| 未确定图表时的 Figure 1/2、面板或布局建议 | 保留中性图注占位规则；规划文件只组织论证职责与真实来源 |
+| 外部作者和第三方 skills 的写作建议 | 外部方法仍在仓库根目录的参考目录，未因本轮流程重新融合 |
+| “当前只整理流程，不创建文件”、复制按钮、0/25 进度及重置提示 | 仅保留在原文存档，避免成为新项目的通用执行指令 |
+| 投稿冻结、Rebuttal、倒排时间与阶段验收 | 终稿冻结、审稿回应与时间安排，作为原有规则之外的补充 |
+
+补充：[会议截止信息](research-and-evidence.md) 对应完整流程 L162；[语言限制](common-rules.md) 新增 instead of 对应 Round 4 的否定式包装示例。批注状态的旧简略列表已由 Step 14.5 的状态含义替换。
+
+起草顺序以完整流程 Step 9.2 为统一位置；原指南中的简略顺序归并到全文规划，研究阶段只保留链接。
