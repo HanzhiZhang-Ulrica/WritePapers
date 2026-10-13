@@ -1,6 +1,21 @@
 # WritePapers
 
-- [write-papers](skills/write-papers/SKILL.md)
-- [从代码仓库到投稿论文：研究定位、结构设计与写作指引.md](skills/write-papers/references/%E4%BB%8E%E4%BB%A3%E7%A0%81%E4%BB%93%E5%BA%93%E5%88%B0%E6%8A%95%E7%A8%BF%E8%AE%BA%E6%96%87%EF%BC%9A%E7%A0%94%E7%A9%B6%E5%AE%9A%E4%BD%8D%E3%80%81%E7%BB%93%E6%9E%84%E8%AE%BE%E8%AE%A1%E4%B8%8E%E5%86%99%E4%BD%9C%E6%8C%87%E5%BC%95.md)
-- [TileQuant修改反馈.txt](skills/write-papers/references/TileQuant%E4%BF%AE%E6%94%B9%E5%8F%8D%E9%A6%88.txt)
-- [How To Write Papers.pdf](skills/write-papers/references/How%20To%20Write%20Papers.pdf)
+论文写作 skills。内容来自提供的写作指南、修改反馈与补充要求。
+
+## Skill
+
+入口：[write-papers](skills/write-papers/SKILL.md)。
+
+| 文件 | 内容 |
+| --- | --- |
+| [SKILL.md](skills/write-papers/SKILL.md) | 共同要求、研究主线、逻辑与对象、语言限制、按任务阅读入口 |
+| [研究定位与证据](skills/write-papers/references/research-and-evidence.md) | 从仓库与会议输入到研究问题、贡献及证据组织 |
+| [各节写作](skills/write-papers/references/paper-sections.md) | Abstract 至 Conclusion 的职责，以及正文与 Appendix 分工 |
+| [逐句修改与表达](skills/write-papers/references/revision-and-style.md) | 精确替换、缩短幅度、逻辑衔接、术语与格式、批注状态 |
+| [成稿与投稿检查](skills/write-papers/references/final-checks.md) | 引用、图表、指标、PDF、投稿表单及最终验收 |
+| [原始材料与规则来源](skills/write-papers/references/source-map.md) | 原文存档和各主题的来源位置 |
+
+## 整理范围
+
+按主题重排、拆分长段、合并重复要求；规则正文采用提供材料中的原文。
+本轮明确批注覆盖旧建议。项目案例保留在原文存档中。
