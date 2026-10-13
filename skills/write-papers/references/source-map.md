@@ -14,6 +14,7 @@
 | TileQuant 修改反馈 | [tilequant-feedback.txt](sources/tilequant-feedback.txt) |
 | 本轮补充要求 | [latest-requirements.md](sources/latest-requirements.md) |
 | How To Write Papers | [how-to-write-papers.pdf](sources/how-to-write-papers.pdf) |
+| Computer Science Paper Pre-Submission Checklist | [cs-paper-pre-submission-checklist.pdf](sources/cs-paper-pre-submission-checklist.pdf) |
 
 ## 规则来源
 
@@ -68,3 +69,43 @@
 | [投稿声明与表单](final-checks.md) | [TileQuant修改反馈](sources/tilequant-feedback.txt)：L17、18、123 |
 | [双重可读性与逐句检查](final-checks.md) | [TileQuant修改反馈](sources/tilequant-feedback.txt)：L127、136；[本轮补充要求](sources/latest-requirements.md)：L21 |
 | [最终验收：六个问题](final-checks.md) | [原指南](sources/research-writing-guide.md)：L1039、1041、1043、1045、1047、1049 |
+
+## 投稿前清单的归并对应
+
+来源：[Computer Science Paper Pre-Submission Checklist](sources/cs-paper-pre-submission-checklist.pdf)，第 1 页。
+
+清单的通用检查项归入以下位置，已有要求不重复添加。PDF 页脚的工具建议保留在原文中。
+
+| 原文类别 | 原文检查项 | 处理 | 规则位置 |
+| --- | --- | --- | --- |
+| 1. Core message and structure | Title is specific and matches the actual contribution. | 补充 | [标题、相关工作与独立阅读](final-checks.md) |
+| 1 | Abstract states the problem, method, main result, and why it matters. | 已有 | [Abstract](paper-sections.md) |
+| 1 | Introduction motivates the problem and ends with explicit contributions. | 已有 | [Introduction](paper-sections.md) |
+| 1 | Claims are calibrated; no overstatement or unsupported novelty claims. | 已有 | [共同要求、研究问题和核心洞察](../SKILL.md) |
+| 1 | Related work covers the most relevant prior methods, datasets, and benchmarks. | 补充 | [标题、相关工作与独立阅读](final-checks.md) |
+| 1 | Symbols, assumptions, and terminology are defined before use. | 扩展 | [标题、相关工作与独立阅读](final-checks.md) |
+| 2. Experiments and technical soundness | Baselines are strong, current, and fairly implemented. | 补充 | [实验与技术可靠性](final-checks.md) |
+| 2 | Metrics are appropriate, clearly defined, and reported consistently. | 已有 | [Experiments：设置与顺序；终检：指标、比较条件与证据边界](paper-sections.md) |
+| 2 | Key implementation details, datasets, splits, and hyperparameters are documented. | 补充 | [实验与技术可靠性](final-checks.md) |
+| 2 | At least one ablation or sensitivity analysis supports the main claims. | 补充 | [实验与技术可靠性](final-checks.md) |
+| 2 | Each major claim in the paper is backed by a figure, table, or result. | 已有 | [主张、机制、证据与位置](research-and-evidence.md) |
+| 2 | Limitations, failure cases, and ethics/societal impact are addressed if required. | 补充 | [投稿声明与表单](final-checks.md) |
+| 3. Writing, grammar, and style | Acronyms are expanded at first use. | 已有 | [正文缩写](revision-and-style.md) |
+| 3 | Terminology, notation, capitalization, tense, and voice are consistent. | 补充 | [语法、拼写与一致性](final-checks.md) |
+| 3 | Sentences are concise; remove filler, repetition, and vague wording. | 已有 | [缩短与排版锁定、主语、段落与粗体](revision-and-style.md) |
+| 3 | Check spelling, typos, punctuation, commas, articles, and subject-verb agreement. | 补充 | [语法、拼写与一致性](final-checks.md) |
+| 3 | Remove contractions, colloquial phrases, and unsupported adjectives. | 补充 | [语法、拼写与一致性](final-checks.md) |
+| 3 | Search for doubled words, missing words, and broken cross-references. | 合并 | [最后五分钟检索](final-checks.md) |
+| 3 | Read the title, abstract, section headings, and captions as a standalone summary. | 补充 | [标题、相关工作与独立阅读](final-checks.md) |
+| 4. Figures, references, and submission safety | Every figure, table, and equation is referenced and explained in the text. | 扩展 | [图表与视觉编码](final-checks.md) |
+| 4 | Captions state the takeaway, not only what is shown. | 补充 | [图表与视觉编码](final-checks.md) |
+| 4 | Axes, units, legends, and fonts are readable in grayscale and when printed. | 补充 | [图表与视觉编码](final-checks.md) |
+| 4 | Every in-text citation appears in the bibliography; bibliography entries are complete. No hallucinated or fabricated references. | 已有 | [引用检查；入口：引用与图的范围](final-checks.md) |
+| 4 | Remove TODO/FIXME notes, tracked changes, comments, and debug text. | 补充 | [提交文件清理](final-checks.md) |
+| 4 | Blind-review rules, page limits, and formatting rules match the venue. | 已有 | [会议与领域定位](research-and-evidence.md) |
+| 4 | The uploaded PDF opens correctly; links, fonts, metadata, and supplement files are checked. | 补充 | [最终 PDF 与验证范围](final-checks.md) |
+| Last 5-minute search pass | TODO / FIXME / XXX / ?? | 补充 | [最后五分钟检索](final-checks.md) |
+| Last 5-minute search pass | doubled words and duplicate spaces | 补充 | [最后五分钟检索](final-checks.md) |
+| Last 5-minute search pass | self-identifying names, links, or metadata | 补充 | [最后五分钟检索](final-checks.md) |
+| Last 5-minute search pass | missing citations, broken references, and numbering mismatches | 补充 | [最后五分钟检索](final-checks.md) |
+| 顶部提示 | After checking every item, open the exact uploaded PDF once more and verify it matches what you intended to submit. | 补充 | [最终 PDF 与验证范围](final-checks.md) |

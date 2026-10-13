@@ -62,9 +62,10 @@ description: 根据代码仓库与目标会议完成研究定位、论文撰写�
 | 从仓库形成论文主线、定位会议与贡献 | [研究定位与证据](references/research-and-evidence.md) | 输入、会议调研、仓库阅读、研究难点、主张与证据 |
 | 写作或修改具体章节 | [各节写作](references/paper-sections.md) | 正文与附录分工、Abstract、Introduction、Related Work、Method、Experiments、Conclusion |
 | 精修、缩短、处理批注或 LaTeX 格式 | [逐句修改与表达](references/revision-and-style.md) | 修改位置与替换格式、修改幅度、逻辑衔接、术语与视觉保真、批注状态 |
-| 检查成稿、最终 PDF 或投稿表单 | [成稿与投稿检查](references/final-checks.md) | 引用、指标、图表、实际 PDF、声明与表单、六项验收问题 |
+| 检查成稿、最终 PDF 或投稿表单 | [成稿与投稿检查](references/final-checks.md) | 引用、实验、语法、图表、实际 PDF、提交清理、声明与表单、六项验收问题 |
 
 ## 材料与来源
 
 - [How To Write Papers](references/sources/how-to-write-papers.pdf)：写作样例。
+- [Computer Science Paper Pre-Submission Checklist](references/sources/cs-paper-pre-submission-checklist.pdf)：投稿前检查清单。
 - [原始材料与规则来源](references/source-map.md)：原文存档、规则位置及对应来源。

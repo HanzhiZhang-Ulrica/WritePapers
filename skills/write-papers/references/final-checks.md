@@ -1,5 +1,12 @@
 # 成稿与投稿检查
 
+## 标题、相关工作与独立阅读
+
+- [ ] Title is specific and matches the actual contribution.
+- [ ] Related work covers the most relevant prior methods, datasets, and benchmarks.
+- [ ] Symbols, assumptions, and terminology are defined before use.
+- [ ] Read the title, abstract, section headings, and captions as a standalone summary.
+
 ## 引用检查
 
 **技术检查：** citation key 存在、label 唯一、引用目标有效。
@@ -7,6 +14,12 @@
 **语义检查：** 引用内容确实支持当前句子，附录指向确实包含所承诺的细节，图表比较与文字相符。
 
 BibTeX 的作者、标题、年份、venue、页码和正式版本要核实。不要凭论文年份构造 volume，也不要自动认定不熟悉的新论文 metadata 有误。
+
+## 实验与技术可靠性
+
+- [ ] Baselines are strong, current, and fairly implemented.
+- [ ] Key implementation details, datasets, splits, and hyperparameters are documented.
+- [ ] At least one ablation or sensitivity analysis supports the main claims.
 
 ## 指标、比较条件与证据边界
 
@@ -30,15 +43,26 @@ PPL、误差、延迟和能耗通常是越低越好；准确率和吞吐通常�
 
 - 整体效果、评分机制、表示设计和 runtime 收益是否有对应的独立证据
 
+## 语法、拼写与一致性
+
+- [ ] Terminology, notation, capitalization, tense, and voice are consistent.
+- [ ] Check spelling, typos, punctuation, commas, articles, and subject-verb agreement.
+- [ ] Remove contractions, colloquial phrases, and unsupported adjectives.
+
 ## 图表与视觉编码
 
 图注至少让读者理解对象、坐标、比较范围、指标方向和必要条件。复杂 panel 需要说明行、列和 panel 内横轴分别代表什么。
 
-所有正文图表都应被实际引用。详细分析与对应图表放在同一部分。
+- [ ] Every figure, table, and equation is referenced and explained in the text.
+
+详细分析与对应图表放在同一部分。
 
 对 caption 的修改不仅检查文字信息，还要检查视觉编码有没有被原样保留。
 
 对图表的检查既包括数值，也包括坐标轴、图例、颜色、单位、归一化定义、统计口径与图注。
+
+- [ ] Captions state the takeaway, not only what is shown.
+- [ ] Axes, units, legends, and fonts are readable in grayscale and when printed.
 
 ## 最终 PDF 与验证范围
 
@@ -50,7 +74,16 @@ PPL、误差、延迟和能耗通常是越低越好；准确率和吞吐通常�
 
 - 必须查看最终 PDF，而不能把 LaTeX 编译成功当作最终完成
 
+- [ ] The uploaded PDF opens correctly; links, fonts, metadata, and supplement files are checked.
+- [ ] After checking every item, open the exact uploaded PDF once more and verify it matches what you intended to submit.
+
+## 提交文件清理
+
+- [ ] Remove TODO/FIXME notes, tracked changes, comments, and debug text.
+
 ## 投稿声明与表单
+
+- [ ] Limitations, failure cases, and ethics/societal impact are addressed if required.
 
 - 投稿政策要落实到具体声明和表单
 
@@ -73,6 +106,14 @@ PPL、误差、延迟和能耗通常是越低越好；准确率和吞吐通常�
 不能仅评价文本是否漂亮，还应当分别检查 novelty、soundness、experimental fairness、reproducibility 和 contribution boundaries。
 
 写作能帮助审稿人理解已有证据，但不能通过改变措辞代替缺失的技术证明。
+
+## 最后五分钟检索
+
+- [ ] TODO / FIXME / XXX / ??
+- [ ] doubled words and duplicate spaces
+- [ ] missing words
+- [ ] self-identifying names, links, or metadata
+- [ ] missing citations, broken references, and numbering mismatches
 
 ## 最终验收：六个问题
 
