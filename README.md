@@ -23,3 +23,9 @@
 ## 投稿前检查清单
 
 [Computer Science Paper Pre-Submission Checklist](skills/write-papers/references/sources/cs-paper-pre-submission-checklist.pdf) 的检查项已归入成稿与投稿检查，逐项对应见规则来源表。
+
+## 外部写作方法参考
+
+[按需查找的资料目录](references/writing-methods.md)：研究叙事、英语表达、科学解释、科研写作 skills、长期研究工作流、会议规范与叙事范例。
+
+这些资料仅供需要时专门查找写作方法，不直接融合进现有 skills 的描述或规则。
