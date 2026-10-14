@@ -6,9 +6,9 @@ Agent 先判断当前任务与已有成果，再选择对应 skill。每个阶�
 
 ## 独立画图部分
 
-[画图目录](figures/README.md) · [工具](figures/tools.md) · [配色与实例](figures/palettes.md)
+[画图目录](figures/README.md) · [工具](figures/tools.md) · [配色与实例](figures/palettes.md) · [draw.io 基础图形尺寸参考](figures/references/basic_components.drawio)
 
-绘图工具和配色单独维护，需要作图时从此处进入，不加入下方的论文正文写作阶段流程。
+绘图工具、配色和基础图形尺寸参考单独维护，需要作图时从此处进入，不加入下方的论文正文写作阶段流程。
 
 ## Agent 从这里开始
 
