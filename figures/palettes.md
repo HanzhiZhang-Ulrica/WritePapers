@@ -1,14 +1,18 @@
 # 配色
 
-配色由用户提供，按颜色数量分组。各组 ID 在组内编号；HEX 值及排列顺序保留原文。
+配色由用户提供，按颜色数量分组。各组 ID 在组内编号；HEX 值及排列顺序保留原文。每组配色均提供实际色块预览，色块下方标出对应 HEX。
 
 ## 10 色 · 1 组
+
+![10 色 · 1 组配色实例](previews/10-colors.png)
 
 | ID | HEX |
 |---|---|
 | 01 | #9E0142 #D53E4F #F46D43 #FDAE61 #FEE08B #E6F598 #ABDDA4 #66C2A5 #3288BD #5E4FA2 |
 
 ## 7 色 · 5 组
+
+![7 色 · 5 组配色实例](previews/7-colors.png)
 
 | ID | HEX |
 |---|---|
@@ -20,12 +24,16 @@
 
 ## 6 色 · 2 组
 
+![6 色 · 2 组配色实例](previews/6-colors.png)
+
 | ID | HEX |
 |---|---|
 | 01 | #8DCEC8 #ADD3E2 #3480B8 #FFBE7A #FA8878 #C82423 |
 | 02 | #0E3256 #7783A9 #CE9176 #EB5849 #B2CFCD #3577B0 |
 
 ## 5 色 · 13 组
+
+![5 色 · 13 组配色实例](previews/5-colors.png)
 
 | ID | HEX |
 |---|---|
@@ -45,12 +53,16 @@
 
 ## 4 色 · 2 组
 
+![4 色 · 2 组配色实例](previews/4-colors.png)
+
 | ID | HEX |
 |---|---|
 | 01 | #DBA3B4 #ACD1BE #D3B0DE #A7B8DB |
 | 02 | #8D9FCD #62BE9F #DBE1EC #D0EEE4 |
 
 ## 3 色 · 17 组
+
+![3 色 · 17 组配色实例](previews/3-colors.png)
 
 | ID | HEX |
 |---|---|
@@ -73,6 +85,8 @@
 | 17 | #F4511E #FFD600 #7C4DFF |
 
 ## 2 色 · 20 组
+
+![2 色 · 20 组配色实例](previews/2-colors.png)
 
 | ID | HEX |
 |---|---|
