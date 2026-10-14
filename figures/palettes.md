@@ -43,9 +43,9 @@
 | 07 | #FCE8E6 #FFC6BC #F8B9B8 #FFADA2 #D6DFEF #A5CDE2 #5FA3CB #668FCA |
 | 08 | #655675 #9382A3 #C0B3CD #E4DCEB #A96F80 #CF9CAA #E8C9CE #A7B6A1 |
 
-## 7 色 · 8 组
+## 7 色 · 9 组
 
-![7 色 · 8 组配色实例](previews/7-colors.png)
+![7 色 · 9 组配色实例](previews/7-colors.png)
 
 | ID | HEX |
 |---|---|
@@ -57,6 +57,7 @@
 | 06 | #F76666 #FF9799 #F07F0F #EBDA20 #66D28E #65D1D2 #619FD2 |
 | 07 | #2F4F4F #A7BDB1 #D8C49A #A0522D #1E3A5F #F2F0EB #D4AF37 |
 | 08 | #EFA8D2 #F6C8E1 #FDEBF5 #FFFFFF #BFE7E1 #78C6BE #3FA79E |
+| 09 | #DDE2A4 #C3D68B #B1D6A8 #DCECF5 #A8C9CC #E9D4B8 #E68678 |
 
 ## 6 色 · 10 组
 
@@ -75,9 +76,9 @@
 | 09 | #845EC2 #D65DB1 #FF6F91 #FF9671 #FFC75F #F9F871 |
 | 10 | #FF696A #A6D0DE #E7F6F3 #FFD3B0 #C7D3E8 #FDE3E3 |
 
-## 5 色 · 18 组
+## 5 色 · 20 组
 
-![5 色 · 18 组配色实例](previews/5-colors.png)
+![5 色 · 20 组配色实例](previews/5-colors.png)
 
 | ID | HEX |
 |---|---|
@@ -99,6 +100,8 @@
 | 16 | #E5938D #EAB8AF #8AA4BF #A5C0CB #B69B98 |
 | 17 | #36BEC9 #2B7894 #87D1DD #E7A2C2 #EB6659 |
 | 18 | #F94144 #F9C74F #90BE6D #277DA1 #F1F8EB |
+| 19 | #CAE5F8 #9DCBED #FAEFF5 #F2C5DA #E286AF |
+| 20 | #FFFEEC #FBE8DD #F3C2BA #F29494 #D3EDFB |
 
 ## 4 色 · 2 组
 
