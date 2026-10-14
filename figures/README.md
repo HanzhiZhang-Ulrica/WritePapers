@@ -5,6 +5,6 @@
 | 文档 | 内容 |
 | --- | --- |
 | [工具](tools.md) | polish-sci-figures、scientific-illustrator 的仓库入口与用途 |
-| [配色](palettes.md) | 全部 81 组配色实例与 HEX，按颜色数量分组，保留 ID 和原始顺序 |
+| [配色](palettes.md) | 全部 88 组配色实例与 HEX，按颜色数量分组，保留 ID 和原始顺序 |
 
 [返回仓库 README](../README.md)
