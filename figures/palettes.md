@@ -2,17 +2,28 @@
 
 配色由用户提供，按颜色数量分组。各组 ID 在组内编号；HEX 值及排列顺序保留原文。每组配色均提供实际色块预览，色块下方标出对应 HEX。
 
-## 10 色 · 1 组
+## 10 色 · 2 组
 
-![10 色 · 1 组配色实例](previews/10-colors.png)
+![10 色 · 2 组配色实例](previews/10-colors.png)
 
 | ID | HEX |
 |---|---|
 | 01 | #9E0142 #D53E4F #F46D43 #FDAE61 #FEE08B #E6F598 #ABDDA4 #66C2A5 #3288BD #5E4FA2 |
+| 02 | #90A4C4 #ADC9E4 #C0D8E8 #DBDDEF #EBF0FC #FCEDE9 #F7DAD4 #F5C9B6 #F3B8AC #F29F95 |
 
-## 7 色 · 5 组
+## 8 色 · 3 组
 
-![7 色 · 5 组配色实例](previews/7-colors.png)
+![8 色 · 3 组配色实例](previews/8-colors.png)
+
+| ID | HEX |
+|---|---|
+| 01 | #FACC8F #F3962F #A3D8F4 #EF898E #DD656D #61A7D0 #036EAD #8798C9 |
+| 02 | #FAF7EB #F3D1B1 #EB8A3C #E56A1F #4FB0C6 #0F5B72 #D7463B #6B0F14 |
+| 03 | #E1007A #EE3B24 #2B50A7 #00AEEF #FFC107 #A335EE #999999 #FFB6C1 |
+
+## 7 色 · 7 组
+
+![7 色 · 7 组配色实例](previews/7-colors.png)
 
 | ID | HEX |
 |---|---|
@@ -21,19 +32,24 @@
 | 03 | #3B328C #4E3282 #8E6CBB #B69CD2 #A2CDF3 #F8C7CE #FAE6D6 |
 | 04 | #457635 #6B9136 #97B365 #DFD352 #F8EBBD #B1C5C9 #DFC5BF |
 | 05 | #184D97 #1888BF #34B8C5 #A7D9C7 #F6D081 #F6E9D3 #BEC7E1 |
+| 06 | #F76666 #FF9799 #F07F0F #EBDA20 #66D28E #65D1D2 #619FD2 |
+| 07 | #2F4F4F #A7BDB1 #D8C49A #A0522D #1E3A5F #F2F0EB #D4AF37 |
 
-## 6 色 · 2 组
+## 6 色 · 5 组
 
-![6 色 · 2 组配色实例](previews/6-colors.png)
+![6 色 · 5 组配色实例](previews/6-colors.png)
 
 | ID | HEX |
 |---|---|
 | 01 | #8DCEC8 #ADD3E2 #3480B8 #FFBE7A #FA8878 #C82423 |
 | 02 | #0E3256 #7783A9 #CE9176 #EB5849 #B2CFCD #3577B0 |
+| 03 | #F87A72 #00B0F6 #13C487 #C5C75F #2666B8 #FF7F07 |
+| 04 | #3F3770 #3C5397 #3573A1 #D6456C #F57065 #FEB37B |
+| 05 | #E5A08A #F0C0A8 #EBD8C4 #C8D0D0 #B2CDD8 #D2E8EE |
 
-## 5 色 · 13 组
+## 5 色 · 14 组
 
-![5 色 · 13 组配色实例](previews/5-colors.png)
+![5 色 · 14 组配色实例](previews/5-colors.png)
 
 | ID | HEX |
 |---|---|
@@ -50,6 +66,7 @@
 | 11 | #F8EC99 #DEB938 #A8B774 #2C4219 #433A30 |
 | 12 | #5271AE #70ACDE #F5CC7D #FFA660 #D85B59 |
 | 13 | #4F587D #C68DC0 #C2E0EE #776B97 #DBC8ED |
+| 14 | #EFF7F1 #F8E9DE #FFEAB7 #E0523C #76B7BC |
 
 ## 4 色 · 2 组
 
